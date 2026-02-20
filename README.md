@@ -8,6 +8,6 @@ MAKE SURE TO READ THE LATEST ACADEMIC GUIDELINES, THEY HAVE A FORMAT AND THE DEC
 
 The declaration and certificate used in this have been taken from Academic Guidelines Version 2025-26, which is available on the website of IISERK as well, in it they have also specified the font and the pt size. For Times new roman font if you are using overleaf make sure to set your compiler to XeLaTeX (can be found in settings).
 
-Also the best for Thesis,
+All the best for Thesis,
 May the force be with you
 -AH.
