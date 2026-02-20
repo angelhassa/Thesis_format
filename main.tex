@@ -1,0 +1,31 @@
+\documentclass[12pt]{report}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\onehalfspacing
+
+\input{0Config/pagesetup}
+\addbibresource{3End/biblo.bib}
+
+\begin{document}
+    \include{1Beforecontentpage/Title}
+    \pagenumbering{roman} \setcounter{page}{2}
+    \include{1Beforecontentpage/Declaration}
+    \include{1Beforecontentpage/Certificate}
+    \include{1Beforecontentpage/Acknowledgement}
+    \include{1Beforecontentpage/Dedication}
+    \include{1Beforecontentpage/Abstract}
+    \include{1Beforecontentpage/Content}
+
+    \pagenumbering{arabic} \setcounter{page}{1}
+    \include{2Chapters/1Introduction}
+    \include{2Chapters/iiserk }
+
+
+
+   \addappheadtotoc
+   \input{3End/Appendix}
+   \printbibliography[heading=bibintoc]
+
+\end{document}

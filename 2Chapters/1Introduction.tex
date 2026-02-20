@@ -1,0 +1,23 @@
+
+\chapter{Introduction}
+
+\section{Read me}
+If you need help \cite{lshort}, \cite{leesmiller2020latex}, there are also a lot of Youtube videos available, and if you're stuck, consult the savior ChatGPT or gemini.
+
+\section{Set up}
+main.tex file controls the overall structure of the document.
+
+\noindent All the packages are in the folder 0Config, file: pagesetup.A lot of packages have been added but if you need to use other packages add it to pagesetup.tex. Check out 
+\href{https://www.math.cmu.edu/~fabbri/latex/packages.htm}{this page} for a list of packages and when to use them. You can also change the colour and margin from their. for changing the font main.tex
+
+\section{Add new chapters}
+For adding new chapters either do \texttt{\textbackslash 2chapter\{chapter name\}}
+in this file itself or in the filetree find the folder Chapters and add a new file for a new chapter and write \texttt{\textbackslash include\{2Chapters/newfile\}} in \texttt{main.tex}.
+
+(Suggestion: make a new file for each chapter easier for editing and keeping track)
+
+\noindent 
+The biblo.bib file is where the biblographic enrty should be done. Use \texttt{\textbackslash cite\{\}}for citing in text, until and unless u cite something, bibliography page will not show up.
+
+\section{LOT \& LOF}
+The list of tables and figures will automatically get updated as you will add tables and figures.
